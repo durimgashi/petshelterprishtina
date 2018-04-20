@@ -1,0 +1,29 @@
+CACHE MANIFEST
+#DATE 2018-01-03
+CACHE:
+index.html
+css/main.css
+css/navBar.css
+images/logo.png
+javascript/jquery-3.2.1.min.js
+javascript/navButtons.js
+images/background-img2.jpg
+images/logo.png
+images/logo2.png
+images/logo3.png
+images/logo4.png
+images/pets.png
+images/arrow.png
+images/p-donate.png
+images/volunteer1.png
+images/footer/back-to-top2.png
+images/footer/email-logo.png
+images/footer/facebook.png
+images/footer/instagram.png
+images/footer/twitter.png
+
+NETWORK:
+*
+
+FALLBACK:
+#static.html

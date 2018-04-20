@@ -1,0 +1,60 @@
+/* ----Navigation Bar-----*/
+
+.navButtons {
+	max-width: 80%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.navButtons {
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.navButtons a {
+	float: left;
+	font-size: 1.5em;
+	font-family: "tahoma";
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.navButtons a:hover {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.active {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+.navButtons .icon{
+	display: none;
+}
+@media screen and (max-width: 1100px) {
+  .navButtons a:not(:first-child) {display: none;}
+  .navButtons a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .navButtons.responsive {position: relative;}
+  .navButtons.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navButtons.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }

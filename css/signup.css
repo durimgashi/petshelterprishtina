@@ -1,0 +1,108 @@
+#container {
+    
+    position: relative;
+    width: 400px;
+    height: 480px;
+    background-color: grey;
+    opacity: 0.3;
+    top: 150px;
+   /* left: 38%;*/
+    bottom: 10px;
+    border-radius: 13px;
+    
+    margin-left: auto;
+   margin-right: auto
+}
+
+p{
+    font-size: 27px;
+    font-family: ;
+}
+hr{width: 70%;}
+
+.login {
+    margin:  auto;
+    width: 50%;
+    position: relative;
+    top: -330px;
+    font-size: 30px;
+    color: black;
+}
+
+#page {
+   margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    background-color: transparent;
+
+}
+
+input[name="firstname"],
+input[name="lastname"],
+input[name="email"],
+input[name="username"],
+input[name="password"]
+ {
+    margin: 0 auto;
+    width: 71%;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    
+}
+form{
+  text-align: center;
+}
+input:hover{
+    
+    border: 0.5px solid;
+}
+
+#signupButton {
+    background-color: #C60E3C;
+    width: 40%;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 7px;
+}
+#signupButton:hover {
+       background-color: #C60E4D;
+
+}
+
+.content-box {
+    margin: auto;
+    width: 390px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #6b3838a6;
+    padding: 10px;
+    border: 2px solid #7b3c3ccf;
+}
+
+.content-before {
+    font-size: 22px;
+    font-family: arial;
+    color: #fff;
+    text-align: center;
+
+}
+
+.content-after {
+    display: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #fff;
+    text-align: left;
+    opacity: 0;
+}

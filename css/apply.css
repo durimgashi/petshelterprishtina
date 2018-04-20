@@ -1,0 +1,51 @@
+/*---- Tablee ----*/
+
+.t-form {
+	max-width: 70%;
+}
+
+.td-form-left {
+	text-align: right;
+	background-color: lightgray;
+	width: 300px;
+	border-radius: 10px;
+	padding-right: 15px;
+}
+
+.td-form-full {
+	text-align: center;
+}
+
+
+/* ----- Submit/Reset buttons -----*/
+
+.button {
+	background-color: #C60E3C;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+
+/* ---- Inputs -----*/
+
+input[type=text],input[type=list] {
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus {
+	background-color: lightblue;
+}

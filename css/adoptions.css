@@ -1,0 +1,176 @@
+#img-map{
+	margin: auto;
+}
+td
+{
+	padding:20px;
+}
+
+.image
+{
+	margin-left:10px;
+	margin-top:10px;
+	border-radius:12px ;
+}
+
+.adoptions-title
+{
+	text-align:center;
+	font-size:2.2em;
+	font-family:'Trebuchet MS';
+	color:black;
+	background-color: rgba(138, 162, 165,0.3);
+	border:2px solid #a4b9e4;
+	border-radius:8px;
+
+}
+
+.pet-title
+{
+	text-align:center;
+	font-size:1.3em;
+	font-family:'Trebuchet MS';
+	color:black;
+	
+}
+.td-container{
+	width:370px;
+	height:400px;
+	background: -webkit-radial-gradient(purple,blue,green);
+	background:  radial-gradient(purple,blue,green);
+	opacity:0.3;
+	z-index:-1;
+	position:absolute;
+	border-radius:15px ;	
+}
+
+
+.pet-name
+{
+   margin-left:22px;	
+   color:#069fdd;
+}
+ul.dog-data
+{
+	font-family:'Trebuchet MS';
+}
+.cat-data
+{
+	font-family:'Trebuchet MS';
+	list-style-type:circle;
+}
+.adopt-me-button
+{
+	margin-left:100px;
+	margin-right:100px;
+	list-style-type:none;
+	text-decoration:none;
+	background-color:transparent;
+	margin-top:10px;
+	padding:2px;
+}
+.adopt-me-button a 
+{
+	text-decoration:none;
+	color:white;
+	background-color:#C60E3C;
+	opacity:0.9;
+	font-size:1.2em;
+	padding:7px;
+	border-radius:8px ;
+	
+}
+.adopt-me-button a:hover
+{
+	background-color:#C60E3C;
+	color:white;
+	/*border-radius:25px 8px;*/
+	padding:10px;
+	opacity:1;
+	z-index:10;
+}
+.td-container:hover
+{
+	background-color:blue;	
+	opacity:0.8;
+}
+.image:hover
+{	
+	opacity:0.8;
+}
+#hide,#show{
+	border-radius:8px;
+	padding:5px;
+	background-color:#C60E3C;
+	color:white;
+	font-size:1.2em;
+}
+#show:hover{
+	border-radius:8px;
+	padding:6px;
+	background-color:#C60E3C;
+	color:white;
+	font-size:1.2em;
+}
+#hide:hover{
+	border-radius:8px;
+	padding:6px;
+	background-color:#C60E3C;
+	color:white;
+	font-size:1.2em;
+}
+#butonat{
+
+	text-align:center;
+		
+}
+#fundi{
+	
+	display:none;
+}
+  #border-img {
+            border: 15px solid transparent;
+            width: 370px;
+           /* -webkit-border-image: url(images/border.png) 25 round;
+            border-image: url(images/border.png) 25 round;
+            border-image-repeat: repeat;*/
+            margin: auto;
+        }
+
+        #multiple-background-images {
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 800px;
+            height: 270px;
+            padding: 20px;
+            background-image: url(images/maca.png), url(images/multiple.png);
+            background-position: right bottom;
+            background-size: 200px 200px, 100%;
+            background-repeat: no-repeat, repeat;
+            box-shadow: 8px 8px 20px 8px #888888;
+        }
+
+        #multiple-background-images:hover {
+            -ms-transform: translate(20px, 20px);
+            /* IE 9 */
+            -webkit-transform: translate(20px, 20px);
+            /* Safari */
+            transform: translate(20px, 20px);
+            transition: .3s;
+        }
+
+        #pdiv {
+            font-size: 1.3em;
+            font-family: tahoma;
+            color: black;
+            margin-right: 180px;
+            width: 31em;
+            word-wrap: break-word;
+        }
+
+        h2 {
+            font-family: tahoma;
+            color: black;
+            line-height: 0.2;
+        }

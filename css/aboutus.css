@@ -1,0 +1,182 @@
+
+#article-container{
+    
+    background-color: rgba(65,11,11,0.5);
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    z-index: -1;
+    animation: colorchange 5s infinite alternate;
+    
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: rgba(65,11,11,0.5);}
+      25%  {background: rgba(65,11,11,0.6);}
+      50%  {background: rgba(65,11,11,0.7);}
+      75%  {background: rgba(65,11,11,0.8);}
+      100% {background: rgba(65,11,11,0.9);}
+    }
+
+
+.map-container{
+     
+    background-color: rgba(65,11,11,0.5);
+    width: 100%;
+    z-index: -1;
+    padding-top: 40px;
+    
+    
+}
+.articles{
+    width: 80%;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+#gradient {
+	position: absolute;
+	opacity: 0.3;
+	z-index: 100;
+	background: linear-gradient( white, transparent, white);
+	width: 100%;
+	height: 680px;
+}
+#banner {
+    background: url('../images/cat-hug.jpg');
+    width: 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+table {
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+td{
+    padding: 20px 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.img-circle1,.img-circle2 {
+    border-radius: 60%;
+    width: 250px;
+    height: 280px;
+    border: 5px solid rgba(127, 7, 7, 0.4);
+  /*  transition: .3s;*/
+    
+    
+}
+/*.img-circle1:hover{
+        transform: rotateY(360deg);
+    transition: 1s;
+
+}
+.img-circle2:hover{
+        transform: rotateX(360deg);
+    transition: 1s;
+
+}*/
+.img-circle:hover {
+    opacity: 0.8;
+}
+
+table tr td h3 {
+    margin-bottom: 0;
+}
+
+table tr td h4 {
+    margin-top: 0;
+}
+
+.p{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#awards{
+background-color: rgba(65,11,11,0.5);
+position: relative; 
+left: 37.5%;
+}
+
+#dragContainer1, #dragContainer2 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+     
+}
+#ddcontainer{
+   
+    position: absolute;
+    height: 300px;
+}
+
+#map{
+    height: 300px;
+    transition: width 2s, height 2s;
+    
+}
+#map:hover{
+    height: 500px;
+}
+.titles{
+	font-family: myFont;
+	font-weight: bold;
+}
+
+.ceo-info {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: none;
+}
+.short-bio {
+    margin-top: 60px;
+    width: 100%;
+    text-align:justify;
+}
+.ceo-info::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+#info-arberimi ,#info-era, #info-lina, #info-durimi{
+	background-color:rgba(65,11,11,0.3);
+	border-radius:10px;
+	padding:15px;
+	font-family:tahoma;
+	border:1px solid rgba(65,11,11,0.8);
+}
+ @font-face {
+            font-family: myFont;
+            src: url(fonts/RalewayThin.ttf)
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+/* ----Body-----*/
+#home-img {
+			position: relative;
+			margin-bottom: 0 auto;
+			padding-bottom: 0;
+		}
+body {
+    overflow-x: hidden;
+    background: #fff;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* ----Header-----*/
+
+header {
+
+    padding: 15px 15px 15px;
+    position: static;
+
+}
+
+#login{
+    float: right;
+    margin-top:6%;
+    margin-right: 7%;
+    font-size: 20px;
+}
+input[name="loginUsername"],
+input[name="loginPassword"]
+{
+    margin-left: 7px;
+    padding: 9px 9px;
+    width: 230px;
+    /*display: inline-block;*/
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+input[name='loginButton']{
+    width: 100px;
+    padding: 6px 15px 6px 15px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #C60E3C;
+    border:none;
+    margin-left: 5px;
+}
+/* ----Donate Button-----*/
+
+#donate {
+    text-decoration: none;
+    color: white;
+}
+
+#donateButton {
+    background-color: #C60E3C;
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    display: inline;
+    font-size: 40px;
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+/* ---- Footer-----*/
+
+footer {
+    color: white;
+    height: 220px;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+    background-color: dimgrey;
+    text-align: center;
+    position: bottom;
+}
+
+#back-to-top-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #9e7272;
+}
+
+#contacts {
+    padding: 0;
+}
+
+.contacts {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+/* logo animations*/
+
+#logo,
+#logo2,
+#logo3,
+#logo4 {
+
+    position: relative;
+    animation: logo 3s 1;
+   /* -moz-animation: logo 3s 1;
+    -webkit-animation: logo 3s 1;
+    -o-animation: logo 3s 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;*/
+
+}
+
+
+/* Standard syntax */
+
+/*@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+        left: 0px;
+    }
+    25% {
+        transform: rotate(20deg);
+        left: 0px;
+    }
+    50% {
+        transform: rotate(0deg);
+        left: 500px;
+    }
+    55% {
+        transform: rotate(0deg);
+        left: 500px;
+    }
+    70% {
+        transform: rotate(0deg);
+        left: 500px;
+    }
+    100% {
+        transform: rotate(-360deg);
+        left: 0px;
+    }
+}
+*/
+/*fadeToggle*/
+
+#fade {
+    text-align: center;
+}
+
+#p-donate,
+#volunteer {
+    display: none;
+}

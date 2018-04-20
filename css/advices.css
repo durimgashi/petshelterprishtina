@@ -1,0 +1,62 @@
+#home-img {
+	position: relative;
+	margin-bottom: 0;
+}
+
+#advice {
+	margin-left: 150px;
+	margin-right: 150px;
+	border-style: dashed transparent;
+}
+
+table {
+	max-width: 1300px;
+	border: 2px solid black;
+	border-radius: 18px;
+	/*outline: 0.1px solid red;
+    outline-offset: 5px; */
+}
+
+th {
+	font-size: 30px;
+	width: 10%;
+	padding: 20px;
+	text-align: center;
+}
+
+td {
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+#dietul {
+	list-style-type: square;
+}
+.video{
+	width: 45%;
+}
+li{
+	display: inline;
+}
+ol {
+	margin-left: 70px;
+}
+#petvet{
+    
+}
+/*#petvet:hover{
+    transform: skewX(20deg);
+        transition: 1s;
+
+}*/
+#petbrush{
+    
+}
+/*#petbrush:hover{
+    transform: scale(1.5,1.5);
+    transition: 1s;
+    
+}*/
+#multicolumn{
+    column-count: 2;
+}
